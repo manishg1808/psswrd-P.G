@@ -7,6 +7,7 @@ let numbers = document.getElementById("numbers");
 let symbols = document.getElementById("symbols");
 let genBtn  = document.getElementById("genBtn");
 let copyIcon = document.getElementById("copyIcon");
+let resetBtn = document.getElementById("resetBtn");
 
 
 // Showing input slider value 
@@ -60,4 +61,9 @@ copyIcon.addEventListener('click', ()=>{
             copyIcon.title = "";
         }, 3000)
     }
+});
+
+// Reset button functionality
+resetBtn.addEventListener('click', ()=>{
+    passBox.value = "";
 });
