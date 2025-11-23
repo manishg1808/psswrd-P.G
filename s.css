@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to right bottom, #ffa585, #45c5d8); */
+    /* background-image: url(https://img.freepik.com/premium-photo/cyber-hacker-attack-background-skull-vector_42077-7718.jpg?semt=ais_hybrid&w=740); */
+    color: #000000;
+    font-weight: 700;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: top;
+    /* background-image:url(https://media.istockphoto.com/id/155438989/photo/computer-security.jpg?s=612x612&w=0&k=20&c=N4fZjGhjfrBr89BBRdlhKWdFOnwI7M4KhxrdvAqbpy4=) ; */
+
+    background-image: url(https://img.freepik.com/premium-photo/technology-image_1308217-1335.jpg?ga=GA1.1.1960773888.1748200718&semt=ais_hybrid&w=740);
+}
+
+
+.container{
+    border: 1px solid #04f82c;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background:transparent;
+    box-shadow: 8px 8px 4px #b7b5b5, 8px 8px 0px #423c3c;
+}
+
+.container h1{
+    font-size: 1.4rem;
+    margin-block: 8px;
+    font-size: 40px;;
+
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1c3gkCbEcHd5A7h8r3WP6UTgIOWOk1rEqZA&s); */
+    color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+     -webkit-background-clip: text;
+    background-image: url(https://img.freepik.com/premium-photo/fire-ice-concept-3d-illustration_115548-8.jpg?ga=GA1.1.1960773888.1748200718&semt=ais_hybrid&w=740);
+
+}
+.inputBox{
+    position: relative;
+    
+}
+
+.inputBox span{
+    position: absolute;
+    top: 25px;
+    right: 21px;
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.inputBox span:hover{
+    color:rgb(0, 255, 76);
+}
+
+.passBox{
+    background: slategray;
+    background-repeat: no-repeat;
+    background-position: center             ;
+    background-size: cover;
+   color:#fff;
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 400px;
+    border-radius: 14px;
+    font: size 25px;
+    margin-block: 8px;
+    text-overflow: ellipsis;
+    
+}
+
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p, .row label{
+    flex-basis: 100%;
+    font-size: 18px;
+}
+
+.row input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.genBtn{
+    border: none;
+    outline: none;
+    background-color: #2c619e;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 18px;
+    margin-block: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.genBtn:hover{
+    background-color: #0066ff;
+}
